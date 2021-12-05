@@ -14,7 +14,7 @@ export default function appScr(express, bodyParser, fs, crypto, http) {
         .use(bodyParser.urlencoded({extended:true}))       
         .all('/login/', (req, res) => {
             res.set(headers)
-            res.send('itmo307709');
+            res.send('itmo307691');
         })
         .all('/code/', (req, res) => {
             res.set(headers)
