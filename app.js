@@ -48,5 +48,5 @@ export default function appScr(express, bodyParser, fs, crypto, http) {
                 res.send(data)
             })
         })
-        .use(({res:r})=>r.status(404).set(hu).send('itmo307709'))
+        .use(({res:r})=>r.status(404).set(hu).send('itmo307691'))
 }
